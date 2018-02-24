@@ -49,9 +49,7 @@ font-weight:normal;}
 h5 {}
 h6 {}
 
-p {
-  line-height: 12px;
-}
+p {}
 
 a:link, a:visited {text-decoration:none; outline:none;}
 a:hover, a:focus {text-decoration:underline; outline:none;}
@@ -172,7 +170,7 @@ font-size:16px;
 color:#333;
 margin-top:15px;
 margin-bottom:15px;
-line-height:30px;
+line-height:2;
 }
 
 
