@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*
+
+ * Filename       style.css
+ * Website
+ * Author       InMotion Hosting - http://inmotionhosting.com
+
+ */
+
+html, body {margin:0;padding:0;
+background-color:#E0E0E0;}
+
+body {}
+
+h1 {}
+h2 {font-family: 'Source Sans Pro', sans-serif;
+font-size:35px;
+color:#333;
+width:230px;
+height:auto;
+text-align:right;
+border-bottom:1px solid #333 !important;
+font-weight:normal;
+float:right;
+}
+
+.h2-left {text-align:left;
+float:none;
+border:none !important;
+margin-top:10px;
+color:#2d742e;
+width:auto !important;
+text-align: center;
+text-decoration: underline;
+}
+
+h3 {font-family: 'Source Sans Pro', sans-serif;
+font-size:21px;
+color:#2d742e;
+text-align:right;
+font-weight:normal;
+}
+h4 {font-family: 'Source Sans Pro', sans-serif;
+font-size:20px;
+color:#2d742e;
+text-align:left;
+font-weight:bold;}
+h5 {}
+h6 {}
+
+p {}
+
+a:link, a:visited {text-decoration:none; outline:none;}
+a:hover, a:focus {text-decoration:underline; outline:none;}
+
+
+/* want rounded corners?  Add this class to your containers for instant gratification -- adjust the curve as needed */
+
+.rounded-corners {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+}
+
+
+/* insert this class where you need to clear inline items */
+.clearall {clear:both;}
+
+
+/* float images left or right - adjust margins as needed */
+.left-img {float:left; margin:0 10px 0 0;}
+.right-img {float:right; margin:0 0 0 10px;}
+
+
+
+
+
+/*** LAYOUT STYLES ***/
+
+#container, #header, #nav, #content, #footer {margin:0 auto; width:960px; background-color:#fff;}
+
+#container {border-left:1px solid #333;
+      border-right:1px solid #333;
+      padding-top:15px;
+      padding-bottom:10px;
+}
+
+
+
+
+/* HEADER */
+#header {height:auto;}
+
+#logo {float:left;
+margin-left:10px;}
+
+#contact-info {float:right;
+width:250px;
+margin-right:25px;
+margin-top:20px;}
+
+
+#contact {margin-left:20px;
+height:auto;
+width:500px;
+float:left;
+}
+
+/*.contact-right {width:333px;
+height:500px;
+float:right;
+border-bottom:2px solid #333;
+margin-right:35px;
+margin-top:100px;
+}*/
+
+
+/* NAVIGATION */
+
+#nav {border-top:1px solid #333;
+}
+#nav ul {display:block;height:50px;}
+#nav li {display:inline;
+font-family: 'Source Sans Pro', sans-serif;
+font-size:22px;
+}
+#nav li a, #nav li a:visited {display:block;
+width:120px;
+float:left;
+text-align:center;
+height:35px;
+padding-top:15px;
+padding-bottom: 5px;
+color:#000;}
+#nav li a:hover, #nav li a:focus {background-color:#333;
+color:#2d742e;
+text-decoration:none;
+/*border-left:#000 solid 1px;*/
+}
+
+#nav li a.current {background-color:#333;
+color:#2d742e;
+text-decoration:none;
+}
+
+
+/* CONTENT */
+
+#content {overflow:hidden;
+border-top:1px solid #333;
+border-bottom:1px solid #333;
+}
+#top-img {width:960px;
+height:auto;
+padding:0px;
+margin:0 auto;
+
+}
+
+.top-img {width:960px;
+flaot:left;
+}
+
+#content-left {float:left;
+margin-left:20px;
+width:920px;}
+
+#content-left p {font-family: 'Source Sans Pro', sans-serif;
+font-size:18px;
+color:#333;
+margin-top:15px;
+margin-bottom:15px;
+line-height:2;
+}
+
+p strong{
+  font-weight: bold;
+  font-style: italic;
+}
+
+/*FAQ*/
+ .sample {
+  padding:5px 30px 20px 0px;
+  float:left;
+  width:840px;
+}
+
+p, dl {
+  font-size:16px;
+  line-height:24px;
+  margin-bottom:20px;
+  font-family:Helvetica, sans-serif;
+}
+dl, dt, dd {
+  padding:0;
+  margin:0
+}
+.faqs {
+  padding-top:1px;
+  margin-top:10px;
+}
+.faqs dt {
+  font-family: 'Source Sans Pro', sans-serif;
+font-size:20px;
+color:#2d742e;
+text-align:left;
+margin-top:20px;
+font-weight:normal;}
+
+.faqs dt:hover {
+  cursor:pointer;
+}
+.faqs dd {
+  padding:3px 0 6px 30px;
+  position:relative;
+  color:#333
+}
+.faqs .hover {
+  color:#666;
+  text-decoration:underline
+}
+
+.dots {margin-bottom:-25px;
+margin-left:-35px;
+}
+
+
+
+/* FOOTER */
+
+#footer-wrap {}
+#footer {
+margin-bottom:5px;
+position:relative;}
+#footer p {}
+
+.cards {float:right;
+height:40px;
+width:230px;
+margin-top:15px;
+}
+
+ul.footernav {margin-top:10px;
+margin-left:20px;
+margin-bottom:10px;
+width:600px;
+}
+
+.footernav li {display:inline;
+font-family: 'Source Sans Pro', sans-serif;
+font-size:14px;
+}
+
+.footernav a, .footernav  a:visited {color:#2d742e;}
+.footernav  a:hover, .footernav a:focus {}
+
+#contact {}
+#contact p {}
+
+#social {}
+
+#copyright {width:600px;
+  margin-left:20px;}
+#copyright p {font-family: 'Source Sans Pro', sans-serif;
+font-size:12px;
+line-height:16px;}
+#copyright a, #copyright a:visited {color:#2d742e;}
+#copyright a:hover, #copyright a:focus {}
+
+
+/* Errors */
+
+#404wrap {margin:20px auto; width:800px; height:400px; background:#f2f2f2; border:1px solid #e3e3e3; font-family:Verdana, Geneva, sans-serif; font-size:12px;}
+#404wrap h1 {font-size:18px; margin:20px; text-align:center;}
+#404wrap p {margin:20px; text-align:center;}
+#404wrap ol {margin:40px;}
+#404wrap ul {margin:40px;}
+#404wrap li {padding-bottom:8px;}
+#404wrap a:link, #404wrap a:visited {color:#01759d; text-decoration:none; outline:none;}
+#404wrap a:hover, #404wrap a:focus {color:#e26c1d; text-decoration:underline; outline:none;}
+S
