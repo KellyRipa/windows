@@ -198,6 +198,7 @@ word-spacing: 2px
 p strong{
   font-weight: bold;
   font-style: italic;
+  color: #2d742e;
 }
 
 /*FAQ*/
