@@ -33,6 +33,7 @@ border:none !important;
 margin-top:10px;
 color:#2d742e;
 width:auto !important;
+min-height: 50px;
 height: 40px;
 text-align: center;
 text-decoration: underline;
