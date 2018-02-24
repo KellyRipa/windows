@@ -16,7 +16,7 @@ body {}
 
 h1 {}
 h2 {font-family: 'Source Sans Pro', sans-serif;
-font-size:35px;
+font-size:30px;
 color:#333;
 width:230px;
 height:auto;
@@ -26,7 +26,8 @@ font-weight:normal;
 float:right;
 }
 
-.h2-left {text-align:left;
+.h2-left {
+font-size: 2.2em;
 float:none;
 border:none !important;
 margin-top:10px;
