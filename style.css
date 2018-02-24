@@ -35,9 +35,9 @@ width:auto !important;
 height: 40px;
 text-align: center;
 text-decoration: underline;
-font-weight: bold;
+font-weight: normal;
 text-transform: uppercase;
-text-shadow: 1px 1px 0px #2d742e;
+text-shadow: 1px 1px 1px #2d742e;
 letter-spacing: 2px;
 }
 
