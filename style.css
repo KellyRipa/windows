@@ -165,15 +165,14 @@ text-decoration:none;
 #content {overflow:hidden;
 border-top:1px solid #333;
 border-bottom:1px solid #333;
-    -webkit-overflow-scrolling: touch;
-
 }
-.mySlides {width:960px;
+.mySlides {
+width:960px;
 height:430px;
 padding:0px;
 margin:0 auto;
 position: relative;
--webkit-overflow-scrolling: touch;
+pointer-events: none;
 }
 
 #top-img {width:960px;
