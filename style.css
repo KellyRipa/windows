@@ -165,6 +165,7 @@ text-decoration:none;
 #content {overflow:hidden;
 border-top:1px solid #333;
 border-bottom:1px solid #333;
+    -webkit-overflow-scrolling: touch;
 
 }
 .mySlides {width:960px;
