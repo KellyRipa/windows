@@ -173,7 +173,7 @@ height:430px;
 padding:0px;
 margin:0 auto;
 position: relative;
-
+-webkit-overflow-scrolling: touch;
 }
 
 #top-img {width:960px;
